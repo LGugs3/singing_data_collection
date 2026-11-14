@@ -29,24 +29,24 @@ List<DropdownMenuEntry<Reactions>> reactionsDropdownBuilder() {
 }
 
 class ResponseData {
-  final String song;
+  final String songTitle;
   final DateTime time;
   final Places place;
   final Reactions reaction;
 
   // constructors
-  const ResponseData(this.song, this.time, this.place, this.reaction);
-  ResponseData.now(this.song, this.place, this.reaction) :
+  const ResponseData(this.songTitle, this.time, this.place, this.reaction);
+  ResponseData.now(this.songTitle, this.place, this.reaction) :
       time = DateTime.now();
   ResponseData.fromJson(Map<String, dynamic> json) :
-      song = json['song'],
+      songTitle = json['song'],
       time = DateTime.parse(json['time'] as String),
       place = Places.values.byName(json['place']),
       reaction = Reactions.values.byName(json['reaction']);
 
   // serialize
   Map<String, dynamic> toJson() => {
-    'song': song,
+    'song': songTitle,
     'time': time.toIso8601String(),
     'place': place.name,
     'reaction': reaction.name,

@@ -18,9 +18,18 @@ class _RecordDataPageState extends State<RecordDataPage> {
   Reactions observedReaction = Reactions.neutral;
   Places currentPlace = Places.finney;
 
-  void submitRecord() {
+  Future<void> submitRecord() async {
     final newRecord = ResponseData.now(queue.value.first.title, currentPlace, observedReaction);
-    saveResponse(newRecord);
+    await saveResponse(newRecord);
+
+    if (!mounted) return;
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text("Record of ${newRecord.songTitle} with ${newRecord.reaction.name} reaction has been saved successfully."),
+        behavior: SnackBarBehavior.floating,
+        duration: Duration(seconds: 2),
+      ),
+    );
   }
 
   void _onQueueChanged() => setState(() {
@@ -29,17 +38,6 @@ class _RecordDataPageState extends State<RecordDataPage> {
     }
   });
 
-  // ValueListenableBuilder<List<Song>> getCurrentSong() {
-  //   return ValueListenableBuilder<List<Song>>(
-  //     valueListenable: queue,
-  //     builder: (context, items, _) {
-  //       if (items.isEmpty) {
-  //         return Text("No song playing");
-  //       }
-  //       return Text(items.first.title);
-  //     }
-  //   );
-  // }
 
   @override
   void initState() {
@@ -63,7 +61,20 @@ class _RecordDataPageState extends State<RecordDataPage> {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Text(currentSong?.title ?? "No song playing"),
+            currentSong != null
+              ? Expanded(
+                child: SongTile(
+                  song: currentSong!,
+                  icon: Icons.skip_next,
+                  onPressed: () => queue.value = [...queue.value]..removeAt(0),
+                )
+              )
+              : Text("No Song playing"),
+          ],
+        ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
             DropdownMenu(
               label: const Text("Location"),
               enableSearch: false,

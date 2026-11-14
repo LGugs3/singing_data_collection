@@ -1,4 +1,462 @@
 [
-  {"title":  "Song A", "artist":  "This Chords", "duration":  2.50},
-  {"title":  "Song B", "artist":  "The Marcels", "duration":  1.15}
+  {
+    "title": "Blue Moon",
+    "artist": "The Marcels",
+    "duration": 2.25
+  },
+  {
+    "title": "Come Go with Me",
+    "artist": "The Del-Vikings",
+    "duration": 2.67
+  },
+  {
+    "title": "Don't Be A Fool",
+    "artist": "The Del-Vikings",
+    "duration": 2.33
+  },
+  {
+    "title": "Earth Angel",
+    "artist": "The Penguins",
+    "duration": 2.93
+  },
+  {
+    "title": "Heartaches",
+    "artist": "The Marcels",
+    "duration": 2.33
+  },
+  {
+    "title": "Maybe",
+    "artist": "The Chantels",
+    "duration": 2.87
+  },
+  {
+    "title": "Pretty Little Angel Eyes",
+    "artist": "Curtis Lee",
+    "duration": 2.83
+  },
+  {
+    "title": "Sh-Boom",
+    "artist": "The Crew Cuts",
+    "duration": 2.5
+  },
+  {
+    "title": "Silhouettes",
+    "artist": "The Rays",
+    "duration": 2.75
+  },
+  {
+    "title": "Smoke Gets In Your Eyes",
+    "artist": "The Platters",
+    "duration": 2.65
+  },
+  {
+    "title": "Tell Me Why",
+    "artist": "Norman Fox & the Rob Roys",
+    "duration": 2.5
+  },
+  {
+    "title": "The Great Pretender",
+    "artist": "The Platters",
+    "duration": 2.63
+  },
+  {
+    "title": "The Longest Time",
+    "artist": "Billy Joel",
+    "duration": 3.7
+  },
+  {
+    "title": "To the Aisle",
+    "artist": "The Five Satins",
+    "duration": 2.67
+  },
+  {
+    "title": "Twilight Time",
+    "artist": "The Platters",
+    "duration": 2.87
+  },
+  {
+    "title": "Who Put The Bomp?",
+    "artist": "Barry Mann",
+    "duration": 2.33
+  },
+  {
+    "title": "(All Of A Sudden) My Heart Sings",
+    "artist": "Paul Anka",
+    "duration": 2.5
+  },
+  {
+    "title": "(You're The) Devil in Disguise",
+    "artist": "Elvis Presley",
+    "duration": 2.33
+  },
+  {
+    "title": "(Your Love Keeps Lifting Me) Higher & Higher",
+    "artist": "Jackie Wilson",
+    "duration": 2.97
+  },
+  {
+    "title": "ABC",
+    "artist": "Jackson 5",
+    "duration": 2.97
+  },
+  {
+    "title": "Ain't No Mountain High Enough",
+    "artist": "Marvin Gaye",
+    "duration": 2.52
+  },
+  {
+    "title": "All Shook Up",
+    "artist": "Elvis Presley",
+    "duration": 1.95
+  },
+  {
+    "title": "Build Me Up Buttercup",
+    "artist": "The Foundations",
+    "duration": 2.98
+  },
+  {
+    "title": "California Dreamin' (Single Version)",
+    "artist": "The Mamas & The Papas",
+    "duration": 2.7
+  },
+  {
+    "title": "Can't Help Falling in Love",
+    "artist": "Elvis Presley",
+    "duration": 3.0
+  },
+  {
+    "title": "Can't Take My Eyes off You",
+    "artist": "Frankie Valli",
+    "duration": 3.38
+  },
+  {
+    "title": "Come A Little Bit Closer",
+    "artist": "Jay & The Americans",
+    "duration": 2.73
+  },
+  {
+    "title": "Crazy Little Thing Called Love",
+    "artist": "Queen",
+    "duration": 2.72
+  },
+  {
+    "title": "Crocodile Rock",
+    "artist": "Elton John",
+    "duration": 3.93
+  },
+  {
+    "title": "Do Wah Diddy Diddy",
+    "artist": "Manfred Mann",
+    "duration": 2.38
+  },
+  {
+    "title": "Donna the Prima Donna",
+    "artist": "Dion",
+    "duration": 2.25
+  },
+  {
+    "title": "Happy Together",
+    "artist": "The Turtles",
+    "duration": 2.93
+  },
+  {
+    "title": "I Can't Help Myself (Sugar Pie, Honey Bunch)",
+    "artist": "Four Tops",
+    "duration": 2.75
+  },
+  {
+    "title": "I Want You Back",
+    "artist": "Jackson 5",
+    "duration": 2.97
+  },
+  {
+    "title": "I'll Never Smile Again",
+    "artist": "Tommy Dorsey & His Orchestra",
+    "duration": 3.22
+  },
+  {
+    "title": "It's The Same Old Song",
+    "artist": "Four Tops",
+    "duration": 2.75
+  },
+  {
+    "title": "Last Kiss",
+    "artist": "J. Frank Wilson",
+    "duration": 2.47
+  },
+  {
+    "title": "Little Bitty Pretty One",
+    "artist": "Thurston Harris",
+    "duration": 2.33
+  },
+  {
+    "title": "Midnight Train to Georgia",
+    "artist": "Gladys Knight & The Pips",
+    "duration": 4.65
+  },
+  {
+    "title": "Oh, Pretty Woman",
+    "artist": "Roy Orbison",
+    "duration": 2.93
+  },
+  {
+    "title": "Put Your Head On My Shoulder",
+    "artist": "Paul Anka",
+    "duration": 2.6
+  },
+  {
+    "title": "Rockin' Robin",
+    "artist": "Bobby Day",
+    "duration": 2.58
+  },
+  {
+    "title": "Sherry",
+    "artist": "Frankie Valli & The Four Seasons",
+    "duration": 2.52
+  },
+  {
+    "title": "Stand By Me",
+    "artist": "Ben E. King",
+    "duration": 3.0
+  },
+  {
+    "title": "Summer Nights (From “Grease”)",
+    "artist": "John Travolta",
+    "duration": 3.58
+  },
+  {
+    "title": "Tell Her About It",
+    "artist": "Billy Joel",
+    "duration": 3.87
+  },
+  {
+    "title": "The Wanderer",
+    "artist": "Dion",
+    "duration": 2.8
+  },
+  {
+    "title": "The Way I Feel Inside",
+    "artist": "The Zombies",
+    "duration": 1.83
+  },
+  {
+    "title": "This Magic Moment",
+    "artist": "Jay & The Americans",
+    "duration": 2.5
+  },
+  {
+    "title": "Until I Found You",
+    "artist": "Stephen Sanchez",
+    "duration": 2.95
+  },
+  {
+    "title": "Uptown Girl",
+    "artist": "Billy Joel",
+    "duration": 3.28
+  },
+  {
+    "title": "Wake Me Up Before You Go-Go",
+    "artist": "Wham!",
+    "duration": 3.85
+  },
+  {
+    "title": "Will You Love Me Tomorrow",
+    "artist": "Dusty Springfield",
+    "duration": 2.75
+  },
+  {
+    "title": "You Can't Hurry Love",
+    "artist": "Phil Collins",
+    "duration": 2.93
+  },
+  {
+    "title": "You're The One That I Want (From “Grease”)",
+    "artist": "John Travolta",
+    "duration": 2.82
+  },
+  {
+    "title": "Ain't No Sunshine",
+    "artist": "Bill Withers",
+    "duration": 2.08
+  },
+  {
+    "title": "All of Me",
+    "artist": "John Legend",
+    "duration": 4.48
+  },
+  {
+    "title": "Amazing Grace",
+    "artist": "Peter Hollens",
+    "duration": 4.0
+  },
+  {
+    "title": "American Pie",
+    "artist": "Don McLean",
+    "duration": 8.55
+  },
+  {
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "duration": 5.92
+  },
+  {
+    "title": "Da Coconut Nut (The Coconut Song)",
+    "artist": "The San Miguel Master Chorale",
+    "duration": 2.92
+  },
+  {
+    "title": "Dig a Little Deeper",
+    "artist": "Jenifer Lewis",
+    "duration": 2.83
+  },
+  {
+    "title": "Don't Stop Believin'",
+    "artist": "Journey",
+    "duration": 4.18
+  },
+  {
+    "title": "Fly Me To The Moon (2008 Remastered)",
+    "artist": "Frank Sinatra",
+    "duration": 2.48
+  },
+  {
+    "title": "Hallelujah",
+    "artist": "Pentatonix",
+    "duration": 4.72
+  },
+  {
+    "title": "Here Comes The Sun (Remastered 2009)",
+    "artist": "The Beatles",
+    "duration": 3.1
+  },
+  {
+    "title": "Hoist The Colours (Bass Singers Version)",
+    "artist": "The Wellermen",
+    "duration": 2.5
+  },
+  {
+    "title": "How Deep Is Your Love",
+    "artist": "Bee Gees",
+    "duration": 3.53
+  },
+  {
+    "title": "I'm Gonna Be (500 Miles)",
+    "artist": "The Proclaimers",
+    "duration": 3.65
+  },
+  {
+    "title": "If You Could Read My Mind",
+    "artist": "Gordon Lightfoot",
+    "duration": 3.78
+  },
+  {
+    "title": "Killing Me Softly With His Song",
+    "artist": "Roberta Flack",
+    "duration": 4.77
+  },
+  {
+    "title": "La vie en rose (Single Version)",
+    "artist": "Louis Armstrong And His Orchestra",
+    "duration": 3.42
+  },
+  {
+    "title": "Lean on Me",
+    "artist": "Bill Withers",
+    "duration": 4.28
+  },
+  {
+    "title": "Let It Be",
+    "artist": "The Beatles",
+    "duration": 4.05
+  },
+  {
+    "title": "Lovely Day",
+    "artist": "Bill Withers",
+    "duration": 4.25
+  },
+  {
+    "title": "My Love Mine All Mine",
+    "artist": "Mitski",
+    "duration": 2.28
+  },
+  {
+    "title": "Once Upon a December",
+    "artist": "Christy Altomare",
+    "duration": 3.0
+  },
+  {
+    "title": "Piano Man",
+    "artist": "Billy Joel",
+    "duration": 5.63
+  },
+  {
+    "title": "Rocky Road to Dublin",
+    "artist": "Jack O'Connell",
+    "duration": 2.25
+  },
+  {
+    "title": "Seasons Of Love (Original Cast Recording/1996)",
+    "artist": "Anthony Rapp",
+    "duration": 2.95
+  },
+  {
+    "title": "Sixteen Tons",
+    "artist": "Geoff Castellucci",
+    "duration": 3.0
+  },
+  {
+    "title": "Soldier, Poet, King",
+    "artist": "The Oh Hellos",
+    "duration": 4.68
+  },
+  {
+    "title": "Somebody To Love",
+    "artist": "Queen",
+    "duration": 4.93
+  },
+  {
+    "title": "Somewhere Over The Rainbow/What A Wonderful World",
+    "artist": "Israel Kamakawiwo'ole",
+    "duration": 5.12
+  },
+  {
+    "title": "Sweet Caroline",
+    "artist": "Neil Diamond",
+    "duration": 3.35
+  },
+  {
+    "title": "Take Me Home, Country Roads",
+    "artist": "John Denver",
+    "duration": 3.17
+  },
+  {
+    "title": "Toss A Coin To Your Witcher",
+    "artist": "Sonya Belousova",
+    "duration": 3.25
+  },
+  {
+    "title": "We Will Rock You",
+    "artist": "Queen",
+    "duration": 2.03
+  },
+  {
+    "title": "We'll Meet Again",
+    "artist": "Vera Lynn",
+    "duration": 3.0
+  },
+  {
+    "title": "What a Wonderful World",
+    "artist": "Louis Armstrong",
+    "duration": 2.33
+  },
+  {
+    "title": "When a Man Loves a Woman",
+    "artist": "Michael Bolton",
+    "duration": 3.9
+  },
+  {
+    "title": "Your Song",
+    "artist": "Elton John",
+    "duration": 4.02
+  }
 ]

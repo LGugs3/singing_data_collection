@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:singing_data_collection/pages/export_reactions.dart';
 import 'package:singing_data_collection/pages/record_data_page.dart';
 import 'package:singing_data_collection/pages/sessions_page.dart';
 import 'package:singing_data_collection/pages/songs_page.dart';
@@ -37,14 +38,17 @@ class MyHomePage extends StatefulWidget {
 
 
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageState extends State<MyHomePage> with AutomaticKeepAliveClientMixin {
   int _selectedIndex = 0;
+
+  @override
+  bool get wantKeepAlive => true;
 
   static const List<Widget> _pages = <Widget>[
     Center(child: Text('Home Page', style: TextStyle(fontSize: 24))),
     RecordDataPage(),
     SessionPage(),
-    Center(child: Text('Configure', style: TextStyle(fontSize: 24))),
+    ExportPage(),
     SongsPage(),
   ];
 
@@ -56,6 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+    super.build(context);
     return Scaffold(
       appBar: AppBar(title: const Text('Home Page')),
       body: IndexedStack(index: _selectedIndex, children: _pages),
@@ -65,9 +70,9 @@ class _MyHomePageState extends State<MyHomePage> {
         destinations: const [
           NavigationDestination(icon: Icon(Icons.home), label: 'Home'),
           NavigationDestination(icon: Icon(Icons.contact_page), label: 'Record Data'),
-          NavigationDestination(icon: Icon(Icons.music_note), label: 'Session'),
-          NavigationDestination(icon: Icon(Icons.settings), label: 'Config'),
-          NavigationDestination(icon: Icon(Icons.search), label: 'Search'),
+          NavigationDestination(icon: Icon(Icons.queue_music), label: 'Session'),
+          NavigationDestination(icon: Icon(Icons.file_upload_outlined), label: 'Export'),
+          NavigationDestination(icon: Icon(Icons.library_music_outlined), label: 'Search'),
         ],
       ),
     );
